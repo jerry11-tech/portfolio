@@ -14,7 +14,7 @@ export default function DevStudioModal({ onClose }) {
       content: (
         <div className="space-y-4">
           <p className="text-slate-300 text-sm">
-            Primary workstation machine running Linux / macOS dev environments, Python 3.12, Node.js 20, PyTorch, and Docker containers.
+            Primary workstation machine running Linux / macOS dev environments, Python 3.12, Node.js 20, and Docker containers.
           </p>
           <div className="p-4 rounded-xl bg-slate-900 border border-slate-800 space-y-2 text-xs font-mono">
             <div className="text-emerald-400">$ git status --short</div>
@@ -60,7 +60,7 @@ export default function DevStudioModal({ onClose }) {
               <span>MCA Specialization (7.34 CGPA)</span>
               <span>Exp. Mar 2026</span>
             </div>
-            <p>Deep Learning, Computer Vision (CNN), RAG Pipelines & Web Architecture</p>
+              <p>Neural Networks, Computer Vision (OpenCV), RAG Pipelines & Web Architecture</p>
           </div>
         </div>
       ),

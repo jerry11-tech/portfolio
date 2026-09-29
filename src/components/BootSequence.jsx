@@ -9,7 +9,7 @@ export default function BootSequence({ onComplete }) {
   const bootLogs = [
     "> Booting DHIRAJ.EXE_v4.2",
     "Initializing Neural Engine... [OK]",
-    "Loading Computer Vision & CNN Models... [OK]",
+    "Loading Computer Vision & OpenCV Modules... [OK]",
     "Connecting RAG Knowledge Base... [OK]",
     "Compiling Experience & Projects... [OK]",
     "Mounting Digital Campus Headquarters...",
