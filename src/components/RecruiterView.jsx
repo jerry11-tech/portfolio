@@ -8,7 +8,7 @@ export default function RecruiterView({ onClose }) {
       title: "PrakritiAI — Ayurvedic Prakruti Detection System",
       badge: "In-Browser Neural Net",
       description: "FastAPI + React SPA running DoshaNet (custom neural net) directly in the browser to analyze facial features & recommend Ayurvedic regimens.",
-      tags: ["Python", "TensorFlow", "OpenCV", "FastAPI", "React", "TypeScript"],
+      tags: ["Python", "Scikit-Learn", "Neural Net (from scratch)", "OpenCV", "FastAPI", "TypeScript"],
       github: "https://github.com/jerry11-tech/prakritiai",
       live: "https://jerry11-tech.github.io/prakritiai/",
     },
@@ -24,15 +24,15 @@ export default function RecruiterView({ onClose }) {
       title: "LabelIQ AI — Food Ingredient Analysis & Safety OCR",
       badge: "OCR + NLP",
       description: "Extracted food ingredients from packaging images via OCR, evaluating safety and detecting harmful additives with explainable AI.",
-      tags: ["Python", "OCR", "NLP", "TensorFlow", "OpenCV", "FastAPI"],
+      tags: ["Python", "OCR", "NLP", "OpenCV", "FastAPI"],
       github: "https://github.com/jerry11-tech",
       live: null,
     },
     {
       title: "Real-Time Face Recognition System",
       badge: "Computer Vision",
-      description: "Facial detection and identity verification pipeline utilizing OpenCV and CNNs for high-accuracy real-time verification.",
-      tags: ["Python", "OpenCV", "CNN", "TensorFlow", "Computer Vision"],
+      description: "Facial feature detection and identity verification pipeline built with NumPy and Pillow for real-time analysis.",
+      tags: ["Python", "NumPy", "Pillow", "Computer Vision"],
       github: "https://github.com/jerry11-tech",
       live: null,
     },
@@ -64,7 +64,7 @@ export default function RecruiterView({ onClose }) {
               <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight">Nimje Dhiraj Yeshwant</h1>
               <p className="text-blue-300 text-lg font-medium">AI Engineer | Computer Vision & NLP Developer</p>
               <p className="text-slate-300 text-xs sm:text-sm leading-relaxed max-w-xl">
-                MCA student at K. J. Somaiya Institute of Management (7.34 CGPA) with B.Sc. Mathematics (9.05 CGPA). Specialized in Deep Learning, Computer Vision, and RAG systems.
+                MCA student at K. J. Somaiya Institute of Management (9.29 CGPA, expected 2027) with B.Sc. Mathematics (73.13%). Specialized in Neural Networks, Computer Vision, and RAG systems.
               </p>
             </div>
 
@@ -100,7 +100,7 @@ export default function RecruiterView({ onClose }) {
           <div>
             <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3">Core Technical Skills</h3>
             <div className="flex flex-wrap gap-2">
-              {["Python", "TensorFlow", "OpenCV", "CNN", "NLP", "RAG Pipelines", "FastAPI", "React 18", "Next.js", "TypeScript", "MySQL", "PostgreSQL", "Git", "Scikit-Learn"].map((skill, idx) => (
+              {["Python", "Scikit-Learn", "Neural Net (from scratch)", "OpenCV", "NLP", "RAG Pipelines", "FastAPI", "React 18", "Next.js", "TypeScript", "MySQL", "PostgreSQL", "Git"].map((skill, idx) => (
                 <span key={idx} className="px-3 py-1.5 rounded-lg bg-slate-100 border border-slate-200 text-slate-800 text-xs font-semibold">
                   {skill}
                 </span>

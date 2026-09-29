@@ -17,7 +17,7 @@ export default function Projects() {
         "Minified 422KB bundle optimized for fast load & offline execution",
         "Personalized Ayurvedic wellness & dietary recommendation engine"
       ],
-      tags: ["Python", "TensorFlow", "OpenCV", "FastAPI", "CNN", "React 18", "TypeScript", "Tailwind CSS"],
+      tags: ["Python", "Scikit-Learn", "Neural Net (from scratch)", "OpenCV", "FastAPI", "React 18", "TypeScript", "Tailwind CSS"],
       github: "https://github.com/jerry11-tech/prakritiai",
       live: "https://jerry11-tech.github.io/prakritiai/",
     },

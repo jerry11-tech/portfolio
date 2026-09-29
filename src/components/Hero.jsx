@@ -112,7 +112,7 @@ export default function Hero() {
                 <div className="flex items-start gap-2.5">
                   <CheckCircle2 className="w-4 h-4 text-blue-600 shrink-0 mt-0.5" />
                   <div>
-                    <strong className="text-slate-900 font-semibold block">Computer Vision & CNN</strong>
+                    <strong className="text-slate-900 font-semibold block">Computer Vision & OpenCV</strong>
                     Real-time face recognition, feature extraction & in-browser neural network inference (DoshaNet).
                   </div>
                 </div>

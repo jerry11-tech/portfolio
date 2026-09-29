@@ -36,7 +36,7 @@ export default function AIAssistant() {
       if (lower.includes("who is dhiraj") || lower.includes("about") || lower.includes("background")) {
         response = "Dhiraj Nimje is an AI Engineer and Computer Vision/NLP developer currently pursuing his Master of Computer Applications (MCA) at K. J. Somaiya Institute of Management (7.34 CGPA). He holds a B.Sc. in Mathematics from University of Mumbai (9.05 CGPA).";
       } else if (lower.includes("computer vision") || lower.includes("vision")) {
-        response = "Dhiraj's Computer Vision work includes: 1) PrakritiAI — facial feature & skin tone diagnostic neural network running 100% in-browser (DoshaNet). 2) Real-Time Face Recognition — identity verification using OpenCV and CNNs. 3) LabelIQ AI — food ingredient safety analysis via OCR.";
+        response = "Dhiraj's Computer Vision work includes: 1) PrakritiAI — facial feature & skin tone diagnostic neural network running 100% in-browser (DoshaNet). 2) Real-Time Face Recognition — identity verification using NumPy and Pillow. 3) LabelIQ AI — food ingredient safety analysis via OCR.";
       } else if (lower.includes("prakritiai") || lower.includes("prakriti")) {
         response = "PrakritiAI is an Ayurvedic Prakruti detection platform powered by an in-browser neural network (DoshaNet). It analyzes facial images, classifies users into Vata/Pitta/Kapha doshas, and provides personalized health regimens with zero server latency. Live demo: https://jerry11-tech.github.io/prakritiai/";
       } else if (lower.includes("why") || lower.includes("hire") || lower.includes("interview")) {
@@ -44,7 +44,7 @@ export default function AIAssistant() {
       } else if (lower.includes("resume") || lower.includes("cv")) {
         response = "You can download Dhiraj's full resume PDF directly using the button in the header or by clicking 'Download Resume' above!";
       } else {
-        response = `Thanks for asking! Dhiraj specializes in Python, Deep Learning (TensorFlow/PyTorch), Computer Vision (OpenCV/CNN), and RAG architectures (FastAPI/Next.js). Check out his GitHub repository at https://github.com/jerry11-tech!`;
+        response = `Thanks for asking! Dhiraj specializes in Python, Neural Networks (from scratch), Computer Vision (OpenCV), and RAG architectures (FastAPI/Next.js). Check out his GitHub repository at https://github.com/jerry11-tech!`;
       }
 
       setMessages((prev) => [...prev, { sender: 'ai', text: response }]);
